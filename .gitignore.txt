@@ -62,3 +62,13 @@ Thumbs.db
 *.swp
 *.tmp
 *.temp
+
+
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.dtbcache.v2
+*.cache
+*.v9.bin
