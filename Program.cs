@@ -5,11 +5,14 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://0.0.0.0:80");
+
 
 // 1. Configuração de Serviços
 ConfigureServices(builder);
 
 var app = builder.Build();
+
 
 
 ConfigureMiddleware(app);
