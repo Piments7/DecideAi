@@ -25,4 +25,8 @@
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="8.23.60" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include=".github\workflows\03-minhas-actions.yml" />
+  </ItemGroup>
+
 </Project>
