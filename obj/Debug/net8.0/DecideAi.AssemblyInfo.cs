@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DecideAi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4965ead99aaa3ea0e35c8542bfe5ac7299a1d16d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be29223d4c44182130bd21ac0e52ceead3100264")]
 [assembly: System.Reflection.AssemblyProductAttribute("DecideAi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DecideAi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
