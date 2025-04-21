@@ -1,0 +1,58 @@
+trigger:
+  branches:
+    include:
+      - main
+      - staging
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.x'
+    installationPath: $(Agent.ToolsDirectory)/dotnet
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: '**/*.csproj'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    arguments: '--configuration $(buildConfiguration)'
+    projects: '**/*.csproj'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+    arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
+    zipAfterPublish: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: 'drop'
+    publishLocation: 'Container'
+
+- ${{ if eq(variables['Build.SourceBranchName'], 'staging') }}:
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: 'azure-decideai-conn'
+      appType: 'webApp'
+      appName: 'decideai-staging'
+      package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+
+- ${{ if eq(variables['Build.SourceBranchName'], 'main') }}:
+  - task: AzureWebApp@1
+    inputs:
+      azureSubscription: 'azure-decideai-conn'
+      appType: 'webApp'
+      appName: 'decideai-prod'
+      package: '$(Build.ArtifactStagingDirectory)/**/*.zip'

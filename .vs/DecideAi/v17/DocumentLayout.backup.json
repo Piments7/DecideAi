@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|c:\\users\\elias\\onedrive\\documents\\elias\\cursos\\ads\\decideai_git\\fiap.web.decide_ai_v1\\decideai\\.github\\workflows\\03-minhas-actions.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|solutionrelative:.github\\workflows\\03-minhas-actions.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|c:\\users\\elias\\onedrive\\documents\\elias\\cursos\\ads\\decideai_git\\fiap.web.decide_ai_v1\\decideai\\.github\\workflows\\azure-pipelines.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|solutionrelative:.github\\workflows\\azure-pipelines.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "03-minhas-actions.yml",
-              "DocumentMoniker": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\03-minhas-actions.yml",
-              "RelativeDocumentMoniker": ".github\\workflows\\03-minhas-actions.yml",
-              "ToolTip": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\03-minhas-actions.yml",
-              "RelativeToolTip": ".github\\workflows\\03-minhas-actions.yml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
+              "Title": "azure-pipelines.yml",
+              "DocumentMoniker": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\azure-pipelines.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\azure-pipelines.yml",
+              "ToolTip": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\azure-pipelines.yml",
+              "RelativeToolTip": ".github\\workflows\\azure-pipelines.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-04-21T17:58:42.731Z",
+              "WhenOpened": "2025-04-21T19:23:13.257Z",
               "EditorCaption": ""
             }
           ]

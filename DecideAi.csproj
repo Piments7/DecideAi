@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include=".github\workflows\03-minhas-actions.yml" />
+    <None Include=".github\workflows\azure-pipelines.yml" />
   </ItemGroup>
 
 </Project>
