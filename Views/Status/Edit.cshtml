@@ -1,0 +1,81 @@
+﻿@model DecideAi.Models.StatusModel
+
+<h1>Solicitação</h1>
+
+<h4>Editar</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <!-- Formulário -->
+        <form asp-action="Edit" asp-controller="Status">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="StatusId" class="control-label"></label>
+                <input asp-for="StatusId" class="form-control" />
+                <span asp-validation-for="StatusId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.Nome" class="control-label">Nome</label>
+                <input asp-for="Usuario.Nome" class="form-control" />
+                <span asp-validation-for="Usuario.Nome" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.CPF" class="control-label">CPF</label>
+                <input asp-for="Usuario.CPF" class="form-control" />
+                <span asp-validation-for="Usuario.CPF" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Usuario.Telefone" class="control-label">Telefone</label>
+                <input asp-for="Usuario.Telefone" class="form-control" />
+                <span asp-validation-for="Usuario.Telefone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EnderecoLocal" class="control-label">Endereço Local</label>
+                <input asp-for="EnderecoLocal" class="form-control" />
+                <span asp-validation-for="EnderecoLocal" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Numero" class="control-label">Número</label>
+                <input asp-for="Numero" class="form-control" />
+                <span asp-validation-for="Numero" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cep" class="control-label">CEP</label>
+                <input asp-for="Cep" class="form-control" />
+                <span asp-validation-for="Cep" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Bairro" class="control-label">Bairro</label>
+                <input asp-for="Bairro" class="form-control" />
+                <span asp-validation-for="Bairro" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Descricao" class="control-label">Descrição</label>
+                <input asp-for="Descricao" class="form-control" />
+                <span asp-validation-for="Descricao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Motivo" class="control-label">Selecione um Motivo</label>
+                <select asp-for="Motivo" asp-items="@ViewBag.Motivos" class="form-select">
+                    <option value="">Selecione</option>
+                </select>
+                <span asp-validation-for="Motivo" class="text-danger"></span>
+            </div>
+
+            <br />
+            <div>
+                <input type="submit" value="Solicitar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecideAi", "DecideAi.csproj", "{DD392707-974F-479E-B1E0-966B5A3E5E9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD392707-974F-479E-B1E0-966B5A3E5E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD392707-974F-479E-B1E0-966B5A3E5E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD392707-974F-479E-B1E0-966B5A3E5E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD392707-974F-479E-B1E0-966B5A3E5E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B72EAABF-8E03-4B8E-A7C2-37E039A5218D}
+	EndGlobalSection
+EndGlobal

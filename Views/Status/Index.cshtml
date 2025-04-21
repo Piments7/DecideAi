@@ -1,0 +1,73 @@
+﻿@model IEnumerable<StatusModel>
+
+<h1>Status de Solcitações</h1>
+
+@if (!string.IsNullOrEmpty((String)TempData["mensagemSucesso"]))
+{
+	<div class="alert alert-warning" role="alert">@TempData["mensagemSucesso"]</div>
+}
+
+<p>
+	<a asp-action="Create" asp-controller="Status">Nova Solicitação</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+
+			<th>Id</th>
+			<th>Nome</th>
+			<th>Sobrenome</th>
+			<th>Cpf</th>
+			<th>Telefone</th>
+			<th>Endereço do Local</th>
+			<th>Numero</th>
+			<th>Cep</th>
+			<th>Bairro</th>
+			<th>Descrição</th>
+			<th>Motivo</th>
+
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var statusList in Model)
+		{
+			<tr>
+				<td>
+					<label>@statusList.StatusId</label>
+				</td>
+				<td>
+					<label>@statusList.Usuario.Nome</label>
+				</td>
+				<td>
+					<label>@statusList.Usuario.Telefone</label>
+				</td>
+				<td>
+					<label>@statusList.Usuario.CPF</label>
+				</td>
+				<td>
+					<label>@statusList.EnderecoLocal</label>
+				</td>
+				<td>
+					<label>@statusList.Numero</label>
+				</td>
+				<td>
+					<label>@statusList.Cep</label>
+				</td>
+				<td>
+					<label>@statusList.Bairro</label>
+				</td>
+				<td>
+					<label>@statusList.Descricao</label>
+				</td>
+				<td>
+					<label>@statusList.Motivo</label>
+				</td>
+				<td>
+					<a asp-controller="Status" asp-action="Edit" asp-route-id="@statusList.StatusId">Editar</a>
+					<a asp-controller="Status" asp-action="Delete" asp-route-id="@statusList.StatusId">Excluir</a>
+				</td>
+
+			</tr>
+		}
+	</tbody>
+</table>
