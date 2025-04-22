@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <None Include=".github\workflows\azure-pipelines.yml" />
+    <None Include=".github\workflows\Contnuos_delivery.yml" />
   </ItemGroup>
 
 </Project>
