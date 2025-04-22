@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|c:\\users\\elias\\onedrive\\documents\\elias\\cursos\\ads\\decideai_git\\fiap.web.decide_ai_v1\\decideai\\.github\\workflows\\contnuos_delivery.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DD392707-974F-479E-B1E0-966B5A3E5E9B}|DecideAi.csproj|solutionrelative:.github\\workflows\\contnuos_delivery.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contnuos_delivery.yml",
+              "DocumentMoniker": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\Contnuos_delivery.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\Contnuos_delivery.yml",
+              "ToolTip": "C:\\Users\\Elias\\OneDrive\\Documents\\Elias\\Cursos\\ADS\\DecideAi_Git\\Fiap.Web.Decide_Ai_V1\\DecideAi\\.github\\workflows\\Contnuos_delivery.yml",
+              "RelativeToolTip": ".github\\workflows\\Contnuos_delivery.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-22T01:03:04.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
